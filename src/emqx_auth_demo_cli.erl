@@ -14,7 +14,7 @@
 %% limitations under the License.
 %%--------------------------------------------------------------------
 
--module(emqx_cli_demo).
+-module(emqx_auth_demo_cli).
 
 -export([cmd/1]).
 
