@@ -30,7 +30,7 @@
 %% Called when the plugin application start
 load(Env) ->
     emqx:hook('client.connected',    {?MODULE, on_client_connected, [Env]}),
-    emqx:hook('client.disconnected', {?MODULE, on_client_disconnected, [Env]}),
+    emqx:hook('client.disconnected', {?MODULE, on_client_disconnected, [Env]}).
 
 %%--------------------------------------------------------------------
 %% Client Lifecircle Hooks
